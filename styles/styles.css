@@ -503,8 +503,9 @@ body {
 #contact-us {
   min-height: 100vh;
   width: 100vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url(../../assets/img/bg.jpg) no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.6)), url(../../assets/img/bg.jpg) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../../assets/img/bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.6)), url("../../assets/img/bg.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -700,7 +701,7 @@ body {
     border-radius: 5rem;
   }
   #header nav ul li a:hover {
-    padding: .5rem 7.5rem;
+    padding: 0.5rem 7.5rem;
     color: #333;
     background: #fff200;
   }
