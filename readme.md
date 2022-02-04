@@ -1,2 +1,2 @@
-# The Chatal-Restaurant project with bootstrap 5
+Chatal-Restaurant bootstrap 5
  
