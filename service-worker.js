@@ -5,6 +5,8 @@ let cacheFiles = [
   "/fallback.html",
   "/styles/styles.css",
   "/js/app.js",
+  "/images",
+  "/assets/img",
   "/manifest.json",
 ];
 
